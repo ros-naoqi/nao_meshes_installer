@@ -1,8 +1,7 @@
 <project>
     <shortName>naomeshes</shortName>
     <fullName>NAO meshes</fullName>
-    <version>0.6.6</version>
-    <licenseFile>/home/marguedas/catkin_ws/src/nao_meshes/LICENSE.TXT</licenseFile>
+    <version>0.6.7</version>
     <componentList>
         <component>
             <name>default</name>
@@ -23,24 +22,6 @@
                         <distributionDirectory>
                             <origin>/home/marguedas/catkin_ws/src/nao_meshes/texture</origin>
                         </distributionDirectory>
-                        <distributionFile>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/CMakeLists.txt</origin>
-                        </distributionFile>
-                        <distributionFile>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/LICENSE.TXT</origin>
-                        </distributionFile>
-                        <distributionFile>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/package.xml</origin>
-                        </distributionFile>
-                        <distributionFile>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/README</origin>
-                        </distributionFile>
-                        <distributionDirectory>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/scripts</origin>
-                        </distributionDirectory>
-                        <distributionFile>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/tuto.txt</origin>
-                        </distributionFile>
                     </distributionFileList>
                     <shortcutList>
                         <shortcut>
@@ -95,12 +76,6 @@
     <enableRollback>1</enableRollback>
     <enableTimestamp>1</enableTimestamp>
     <vendor>Aldebaran Robotics</vendor>
-    <licenseFileList>
-        <licenseFile>
-            <code>en</code>
-            <file>/home/marguedas/catkin_ws/src/nao_meshes/LICENSE.TXT</file>
-        </licenseFile>
-    </licenseFileList>
     <parameterList>
         <directoryParameter>
             <name>installdir</name>
