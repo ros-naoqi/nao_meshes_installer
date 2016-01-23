@@ -2,7 +2,7 @@
     <shortName>naomeshes</shortName>
     <fullName>NAO meshes</fullName>
     <version>0.6.7</version>
-    <licenseFile>/home/mikael/ros/src/nao_meshes_installer/LICENSE</licenseFile>
+    <licenseFile>/home/mikael/ros/src/nao_meshes/LICENSE</licenseFile>
     <componentList>
         <component>
             <name>default</name>
@@ -13,7 +13,7 @@
             <folderList>
                 <folder>
                     <description>Program Files</description>
-                    <destination>${installdir}/nao_meshes</destination>
+                    <destination>${installdir}</destination>
                     <name>programfiles</name>
                     <platforms>all</platforms>
                     <distributionFileList>
@@ -77,13 +77,19 @@
     <enableRollback>1</enableRollback>
     <enableTimestamp>1</enableTimestamp>
     <vendor>Aldebaran Robotics</vendor>
+    <licenseFileList>
+        <licenseFile>
+            <code>en</code>
+            <file>/home/mikael/ros/src/nao_meshes/LICENSE</file>
+        </licenseFile>
+    </licenseFileList>
     <parameterList>
         <directoryParameter>
             <name>installdir</name>
             <description>Installer.Parameter.installdir.description</description>
             <explanation>Installer.Parameter.installdir.explanation</explanation>
             <value></value>
-            <default>~/.ros/</default>
+            <default>~/.ros/nao_meshes/</default>
             <allowEmptyValue>0</allowEmptyValue>
             <cliOptionName>prefix</cliOptionName>
             <mustBeWritable>0</mustBeWritable>
