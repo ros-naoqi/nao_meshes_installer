@@ -2,6 +2,7 @@
     <shortName>naomeshes</shortName>
     <fullName>NAO meshes</fullName>
     <version>0.6.7</version>
+    <licenseFile>/home/mikael/ros/src/nao_meshes_installer/LICENSE</licenseFile>
     <componentList>
         <component>
             <name>default</name>
@@ -17,10 +18,10 @@
                     <platforms>all</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/meshes</origin>
+                            <origin>/home/mikael/ros/src/nao_meshes/meshes</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>/home/marguedas/catkin_ws/src/nao_meshes/texture</origin>
+                            <origin>/home/mikael/ros/src/nao_meshes/texture</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <shortcutList>
